@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+:root{
+    --dark-cyan: hsl(185, 75%, 39%);
+    --v-d-desaturated-blue: hsl(229, 23%, 23%);
+    --d-grayish-blue: hsl(227, 10%, 46%);
+    --d-gray: hsl(0, 0%, 59%);
+}
+body{
+    background-image: url(/public/images/bg-pattern-top.svg), url(/public/images/bg-pattern-bottom.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: -15rem -30rem, 70rem 30rem;
+    font-family: 'Kumbh Sans', sans-serif;
+    background-color: var(--dark-cyan);
+}
+main{
+    background-image: url(/public/images/bg-pattern-card.svg);
+    background-repeat: no-repeat;
+    width: 350px;
+}
+h1, h2{
+    color: var(--v-d-desaturated-blue);
+}
+p, span{
+    color: var(--d-gray);
+}
+.stats{
+    border-top: 1px solid var(--d-gray);
+}

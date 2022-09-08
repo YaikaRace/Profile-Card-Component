@@ -10,14 +10,14 @@
     --d-gray: hsl(0, 0%, 59%);
 }
 body{
-    background-image: url(/public/images/bg-pattern-top.svg), url(/public/images/bg-pattern-bottom.svg);
+    background-image: url(../images/bg-pattern-top.svg), url(../images/bg-pattern-bottom.svg);
     background-repeat: no-repeat, no-repeat;
     background-position: -15rem -30rem, 70rem 30rem;
     font-family: 'Kumbh Sans', sans-serif;
     background-color: var(--dark-cyan);
 }
 main{
-    background-image: url(/public/images/bg-pattern-card.svg);
+    background-image: url(../images/bg-pattern-card.svg);
     background-repeat: no-repeat;
     width: 350px;
 }
